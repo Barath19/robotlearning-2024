@@ -1,0 +1,5 @@
+site_name: Robot Learning Project
+nav:
+  - Home: index.md
+  - About: wiki/how-to-install-issacgym.md
+theme: readthedocs
