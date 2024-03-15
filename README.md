@@ -22,7 +22,7 @@ defaults to the task name, but can also be overridden via the `experiment` argum
 To load a trained checkpoint and continue training, use the `checkpoint` argument:
 
 ```bash
-python train.py task=KinovaCabinet checkpoint=runs/Ant/nn/Ant.pth
+python train.py task=KinovaCabinet 
 ```
 
 To load a trained checkpoint and only perform inference (no training), pass `test=True` 
