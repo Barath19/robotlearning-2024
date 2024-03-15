@@ -16,16 +16,12 @@ pip install -e .
 
 
 
-### Loading trained models // Checkpoints
-
-Checkpoints are saved in the folder `runs/EXPERIMENT_NAME/nn` where `EXPERIMENT_NAME` 
-defaults to the task name, but can also be overridden via the `experiment` argument.
-
-To load a trained checkpoint and continue training, use the `checkpoint` argument:
+### Training
 
 ```bash
 python train.py task=KinovaCabinet 
 ```
+## Testing
 
 To load a trained checkpoint and only perform inference (no training), pass `test=True` 
 as an argument, along with the checkpoint name. To avoid rendering overhead, you may 
