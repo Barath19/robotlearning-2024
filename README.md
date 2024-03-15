@@ -5,10 +5,12 @@
 ### Installation
 
 Download the Isaac Gym Preview 4 release from the [website](https://developer.nvidia.com/isaac-gym), then
-follow the installation instructions in the documentation. We highly recommend using a conda environment 
-to simplify set up.
+follow the installation instructions in the documentation.
+
 
 ```bash
+git clone https://github.com/Barath19/robotlearning-2024.git
+cd robotlearning-2024.git
 pip install -e .
 ```
 
