@@ -1,6 +1,6 @@
 # Bitbots Gym Environment
 
-![b-it-bot](img/1024.png)
+![b-it-bot](https://github.com/Barath19/robotlearning-2024/blob/main/docs/images/1024.png)
 
 ### Installation
 
